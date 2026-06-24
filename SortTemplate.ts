@@ -13,3 +13,6 @@ export abstract class SortTemplate {
     return palavra1.localeCompare(palavra2);
   }
 }
+
+export class SortDefault extends SortTemplate {
+}
